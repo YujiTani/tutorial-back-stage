@@ -28,6 +28,7 @@ import SearchIcon from '@material-ui/icons/Search';
 import { MyGroupsSidebarItem } from '@backstage/plugin-org';
 import GroupIcon from '@material-ui/icons/People';
 import ScheduleIcon from '@material-ui/icons/Schedule';
+import TrendingUpIcon from '@material-ui/icons/TrendingUp';
 
 const useSidebarLogoStyles = makeStyles({
   root: {
@@ -77,6 +78,7 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
         <SidebarItem icon={LibraryBooks} to="docs" text="Docs" />
         <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
         <SidebarItem icon={ScheduleIcon} to="create" text="スケジュール管理" />
+        <SidebarItem icon={TrendingUpIcon} to="upsell" text="プレミアムプラン" />
         {/* End global nav */}
         <SidebarDivider />
         <SidebarScrollWrapper>
