@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export NODE_OPTIONS=--no-node-snapshot)",
+      "Bash(rm:*)",
+      "Bash(yamllint:*)",
+      "WebFetch(domain:github.com)"
+    ],
+    "deny": []
+  }
+}
